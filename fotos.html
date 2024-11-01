@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeria de Imagens Flex</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="sidebar">
+        <h1>Galeria de imagens</h1>
+        <ul>
+          <li><a href="./index.html">HOME</a></li>
+          <li><a href="./fotos.html">FOTOS</a></li>
+          <li><a href="./bio.html">BIO</a></li>
+          <li><a href="./contato.html">CONTATO</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="#" class="icon">f</a>
+          <a href="#" class="icon">t</a>
+          <a href="#" class="icon">w</a>
+        </div>
+      </nav>
+      <main class="photo-gallery">
+        <section id="gallery-container" class="photo-gallery-container">
+          <div class="gallery-item wide">
+            <img
+              src="https://images.unsplash.com/photo-1682687220063-4742bd7fd538?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;h=400&amp;q=80"
+              alt="Onda"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1682685796014-2f342188a635?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=400&amp;h=400&amp;q=80"
+              alt="Montanha"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1683009427540-c5bd6a32abf6?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=400&amp;h=400&amp;q=80"
+              alt="Retrato"
+            />
+          </div>
+          <div class="gallery-item wide">
+            <img
+              src="https://images.unsplash.com/photo-1682695796954-bad0d0f59ff1?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;h=400&amp;q=80"
+              alt="Natureza"
+            />
+          </div>
+        </section>
+        <button id="load-more">Ver mais</button>
+      </main>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
