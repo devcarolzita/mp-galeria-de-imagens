@@ -12,6 +12,10 @@ body {
   color: white;
 
 }
+
+a:hover {
+  font-weight: bold;
+}
 .gallery {
   background-image: url('./assets/background.png');
   width: 100vw;
