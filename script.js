@@ -1,6 +1,8 @@
 import { images } from './dados.js';
 const galleryContainer = document.querySelector('#gallery-container');
 const loadMoreButton = document.querySelector('#load-more');
+console.log(loadMoreButton);
+
 console.log(galleryContainer, loadMoreButton);
 const imagesPerPage = 4;
 let currentImageIndex = 0;
@@ -34,7 +36,7 @@ function loadImages () {
   }
 }
 
-loadImages();
+
 loadMoreButton.addEventListener('click', loadImages);
 
 window.addEventListener('scroll', () => {
